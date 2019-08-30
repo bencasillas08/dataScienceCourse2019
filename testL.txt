@@ -1,1 +1,7 @@
-Prueba en linux
+# Subir un archivo desde terminal al repositorio en github
+# Colocarse en el directorio del repositorio local del PC
+git init
+git add .
+git commit-m "comentario caracteristico de modificación"
+git remote add origin -URL_del_repositorio-
+git push -u oriigin master
